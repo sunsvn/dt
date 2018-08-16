@@ -295,7 +295,20 @@
 }
 
 
-
+/*-------------- 全景图 -------------------*/
+.navBox {
+  width: 100%;
+  height: 80px;
+  background: #575350;
+  .navIn {
+    width: 1200px;
+    margin: 0 auto;
+    .logo {
+      @include bg('../images/logo.png');
+      @include wh(227,42);
+    }
+  }
+}
 
 
 
